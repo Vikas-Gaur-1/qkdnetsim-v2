@@ -1,0 +1,7 @@
+# Build directories
+build/
+cmake-cache/
+
+# Temporary files
+*.lock
+.lock-ns3_linux_build
