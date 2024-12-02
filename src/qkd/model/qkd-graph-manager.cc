@@ -42,7 +42,7 @@ QKDGraphManager* QKDGraphManager::single = NULL;
 QKDGraphManager* QKDGraphManager::getInstance()
 {
     if(!instanceFlag){
-		m_totalGraph = CreateObject<QKDTotalGraph> ("QKD\_Total\_Graph", "png");
+		m_totalGraph = CreateObject<QKDTotalGraph> ("QKD_Total_Graph", "png");
 		single = new QKDGraphManager();
 		instanceFlag = true;
     }
